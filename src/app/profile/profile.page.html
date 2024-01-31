@@ -1,0 +1,35 @@
+<ion-content [fullscreen]="true">
+  <ion-card class="profile-content">
+
+    <div align="center" class="image">
+      <ion-avatar>
+        <img alt="Silhouette of a person's head" src="https://media.licdn.com/dms/image/D4D03AQFdYV5kW6HKbw/profile-displayphoto-shrink_800_800/0/1691607622937?e=1710979200&v=beta&t=_cOZ0XYa_Js3mhI-kSDBn7-6nwyS_Vo_bIVxhO-u5fg" />
+      </ion-avatar>
+    </div>
+
+    <ion-item lines="none" class="profile">
+      <ion-label class="ion-text-center">
+        <ion-text color="secondary">Uday Chavan</ion-text>
+        <p>
+          <ion-text color="medium">UI/UX Designer</ion-text>
+        </p>
+      </ion-label>
+    </ion-item>
+
+   
+    <ion-button expand="full" (click)="showAboutMe()">About Me</ion-button>
+
+  </ion-card>
+
+  <ion-card class="options">
+   
+    <ion-card-content class="card-content" *ngIf="showAbout">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Uday Chavan, a UI/UX Designer passionate about creating beautiful and intuitive user experiences.
+       
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

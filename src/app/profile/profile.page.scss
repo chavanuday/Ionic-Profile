@@ -1,0 +1,49 @@
+/* profile.page.scss */
+
+.profile-content {
+    background: var(--ion-color-primary);
+    border-radius: 25px;
+    padding-bottom: 18vh;
+    color: #fff; /* Set text color to white for better contrast */
+  }
+  
+  .image {
+    transform: translateY(5vh);
+  
+    ion-avatar {
+      width: 25vh;
+      height: 25vh;
+      border: 3px solid var(--ion-color-secondary);
+      padding: 0.8vh;
+      margin-bottom: 6vh;
+      border-radius: 50%; /* Make the avatar circular */
+    }
+  }
+  
+  ion-item.profile {
+    --background: transparent;
+  
+    ion-label {
+      font-size: 1.5rem;
+      font-weight: 600;
+  
+      p {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    }
+   
+  }
+
+  .card-content {
+    background: var(--ion-color-secondary);
+    border-radius: 60px;
+    padding-bottom: 3vh;
+    color: #fff;
+    text-align: center;
+
+  }
+  
+  
+  
